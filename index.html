@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html> 
+<style>
+  
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<link rel = "stylesheet" type = "text/css" href = "style.css">
+
+<body>
+  <table>
+    <form>
+      <th colspan="2">Registration Form</th>
+      <!--name-->
+      <tr>
+        <td><label for="studentName">Student name</label></td>
+        <td><input type="text" id="studentName" class="input"></td>
+      </tr>
+      <!--fatherName-->
+      <tr>
+        <td><label for="fatherName">Father's name</label></td>
+        <td><input type="text" id="fatherName" class="input"></td>
+      </tr>
+      <!--motherName-->
+      <tr>
+        <td><label for="motherName">Mother's name</label></td>
+        <td><input type="text" id="motherName" class="input"></td>
+      </tr>
+      <!--dob-->
+      <tr>
+        <td><label for="date">Date of Birth</label></td>
+        <td><input type="date" id="date" class="input"></td>
+      </tr>
+      <!--gender-->
+      <tr>
+        <td>Gender</td>
+        <td><label for="male">Male</label>
+          <input type="radio" checked id="male" name="gender"  value = "Male">
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value = "Female">
+        </td>
+      </tr>
+      <!--emailID-->
+      <tr>
+        <td><label for="email">Email ID</label></td>
+        <td><input type="text" id="email"class="input"></td>
+      </tr>
+      <!--mobileNo-->
+      <tr>
+        <td><label for="mobile">Mobile No.</label></td>
+        <td><input type="text" id="mobile" class="input"></td>
+      </tr>
+      <!--address-->
+      <tr>
+        <td><label for="address">Address</label></td>
+        <td><textarea rows="3" cols="24" class="input"></textarea></td>
+      </tr>
+      <!--State-->
+      <tr>
+        <td><label for="state">State</label></td>
+        <td><input type="text" id="state" class="input"></td>
+      </tr>
+      <!--city-->
+      <tr>
+        <td><label for="city">City</label></td>
+        <td><input type="text" id="city" class="input"></td>
+      </tr>
+      <!--submit the form-->
+      <tr>
+        <td></td>
+        <td><button type="submit" class = "input">Submit</button></td>
+      </tr>
+    </form>
+    </table>
+</body>
+</html>
